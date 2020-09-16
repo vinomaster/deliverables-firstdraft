@@ -43,11 +43,17 @@ Before proposing a new deliverable, consider the following preparatory actions:
     * Decide on a clear and simple name that is descriptive, yet not verbose or vague.
     * Create a new folder under the appropriate deliverable type folder: `<your folder name>`
     * Navigate into your new folder.
-4. Copy the appropriate **template file** for your type of deliverable to your new folder.
-5. Fill in the **template file**. [Use MUST and SHOULD per standard conventions](https://tools.ietf.org/html/rfc2119). Put care into the details: Deliverable submissions that do not present suffifient information as requested by the **template file** tend  to be poorly received. You can add supporting artifacts and organize your folder as desired. You MAY want to :
+4. Copy the appropriate **deliverable guide** for your type of deliverable to your new folder. See [sample guides](./guides).
+5. Fill in the **deliverable guide**. [Use MUST and SHOULD per standard conventions](https://tools.ietf.org/html/rfc2119). Put care into the details: Deliverable submissions that do not present sufficient information as requested by the **deliverable guide** tend to be poorly received. You can add supporting artifacts and organize your folder as desired. You MAY want to:
     * Create an `images` folder
+    * Leverage [PlantUML](https://en.wikipedia.org/wiki/PlantUML) tools for the generation of UML diagrams. When doing so, you MUST include in your folder:
+        * Source: `.puml` files
+        * Output: `.jpg` or `.png` files
+    * Leverage presentation tools (i.e.: PowerPoint, Keynote). When doing so, you MUST include in your folder:
+        * Source: `.ppt` or `.key` files
+        * Output: `.jpg` or `.png` files
 6. Consider how your new proposal should be [tagged](../tags.md).
-7. Assign a number to your deliverable submissiomn. Get the number by loading <a target="rfcnum"
+7. Assign a number to your deliverable submission. Get the number by loading <a target="rfcnum"
     href="https://trustoverip.github.io/next-deliverable-num/">this web page</a> (or,
     if you want to do it the hard way, by inspecting open and closed PRs against
     this repo to figure out what the next PR number will be). Rename your folder from
