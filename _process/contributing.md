@@ -1,5 +1,29 @@
 # ![toip-logo](https://avatars0.githubusercontent.com/u/61128026?s=200&v=4) Contributing Deliverables
 
+As a member contributor, here are the guidelines that you should follow.
+
+Use this repository to contribute to this project as easy and transparent as possible, whether it's:
+
+* Reporting a bug
+* Discussing the current state of the ToIP Deliverable
+* Submitting a fix
+* Proposing process recommendations
+* other
+
+Our [GitHub Repo](https://github.com/trustoverip/deliverables) is used to host all the deliverables of the ToIP Foundation. We standard GitHub activities to track issues and feature requests, as well as accept all Pull Requests (`PR's`) related to the deliverables we manage.
+
+## GitHub Workflow
+
+* [Issue Submission / Tracking](./github-issues.md)
+* [Pull requests](./github-pullrequests.md)
+* Organization Resources
+    * [Code of Conduct](../CODE_OF_CONDUCT.md)
+    * [ToIP GitHub Organization Management Policy](https://github.com/trustoverip/admin/blob/master/GITHUB_ORG_MANAGEMENT_POLICY.md)
+* General GitHub Resources
+    * [Issue Creation](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue)
+    * [PR Creation](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+    * [Creating a PR from a Fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+
 ## Preparation
 
 Before proposing a new deliverable, consider the following preparatory actions:
