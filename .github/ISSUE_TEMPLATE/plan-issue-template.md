@@ -1,12 +1,17 @@
 ---
-name: Plan Deliverable Issue Template
-about: Issue Template for Plan Deliverables
-title: "[PLAN num] New Issue Title"
+name: Plan Deliverable Form
+about: Issue or Proposal Template for Plan Deliverables
+title: "[PLAN num] New Issue/Proposal Title"
 labels: ''
 assignees: ''
 
 ---
 
+<!-- New Proposal Content -->
+## Submission Synopsis
+
+
+<!-- Issue Content -->
 ## Problem/Concern
 
 * [link to problem content]()

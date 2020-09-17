@@ -1,12 +1,17 @@
 ---
-name: Specification Deliverable Issue Template
-about: Issue Template for Specification Deliverables
-title: "[SPEC num] New Issue Title"
+name: Specification Deliverable Form
+about: Issue or Proposal Template for Specification Deliverables
+title: "[SPEC num] New Issue/Proposal Title"
 labels: ''
 assignees: ''
 
 ---
 
+<!-- New Proposal Content -->
+## Submission Synopsis
+
+
+<!-- Issue Content -->
 ## Problem/Concern
 
 * [link to problem content]()
