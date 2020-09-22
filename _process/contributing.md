@@ -12,7 +12,13 @@ Use this repository to contribute to this project as easy and transparent as pos
 
 Our [GitHub Repo](https://github.com/trustoverip/deliverables) is used to host all the deliverables of the ToIP Foundation. We standard GitHub activities to track issues and feature requests, as well as accept all Pull Requests (`PR's`) related to the deliverables we manage.
 
-## GitHub Workflow
+### Abbreviations
+| Term | Abbreviation |
+| --- | --- |
+|Work Group | WG|
+|Task Force | TF |
+
+## General GitHub Workflow
 
 * [Issue Submission / Tracking](./github-issues.md)
 * [Pull requests](./github-pullrequests.md)
@@ -68,6 +74,43 @@ Before proposing a new deliverable, consider the following preparatory actions:
     * Make sure that all of your commits satisfy the [DCO requirements](https://github.com/probot/dco#how-it-works) of the repo and conform to the license restrictions noted [below](#intellectual-property).
     * The ToIP Deliverable Maintainers will check to see if the process has been followed, and request any process changes before merging the PR.
     * When the PR is merged, your RFC is now formally in the **Proposed** state.
+
+## Deliverable Lifecycle Management
+
+### Folder Creation Instructions
+
+Most of our [deliverable types](./_process/work_products.md) are managed within the [trustoverip/deliverables repo](https://github.com/trustoverip) as `folders` within a parent deliverable type folder. For example:
+
+```
+/deliverables
+   /plans
+      /0001-healthcare-provider
+   /specs
+      /0001-toip-stack
+   ...
+```
+
+However, a few of our [deliverable types](./_process/work_products.md) are managed in independent repos to address the simplification of multiple content rendering formats (PDF, Website, Markdown, etc). These special case deliverable types are:
+
+#### Glossaries
+Each Glossary will be managed in its own dedicated repo that uses the following convention:
+
+```
+<glossary-name>-glossary
+```
+
+where `<glossary-name>` refers to the unique name of the glossary.
+
+>Note: The [Concept and Terminology WG](https://github.com/trustoverip/concepts-and-terminology-wg) has outlined a [high priority issue](https://github.com/trustoverip/concepts-and-terminology-wg/issues/22) associated with the process for generating glossaries. The resolution to this issue will impact these instructions.
+
+#### White Papers
+Each White Paper will be managed in its own dedicated repo that uses the following convention:
+
+```
+<wp-name>-white-paper
+```
+
+where `<wp-name>` refers to the unique name of the White Paper.
 
 ### Changing the Status of a Deliverable
 

@@ -12,10 +12,10 @@ Table 1 summarizes the primary differences between these six types:
 | --- | --- |
 | [Specification](./specs) | Implemented (in code)|
 | [Template](./templates)  | Instantiated (as new documents) |
-| [Definition](./definitions)  | Incorporated (in other documents) |
+| [Glossary](./glossaries.md)  | Incorporated (in other documents) |
 | [Recommendation](./recommendations)  | Followed (in practice) |
 | [Implementation Plan](./plans)  | Executed (in operation) |
-| [White Paper](./white-papers)  | Understood (to support decisions) |
+| [White Paper](./white-papers.md)  | Understood (to support decisions) |
 
 Table 1: The primary differences between the six types of deliverables
 
