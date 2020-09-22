@@ -10,12 +10,19 @@ Figure 1: The six (6) primary types of ToIP Foundation deliverables
 | --- | --- |
 | [Specification](../specs) | Implemented (in code)|
 | [Template](../templates)  | Instantiated (as new documents) |
-| [Definition](../definitions)  | Incorporated (in other documents) |
-| [Recommendation](../recommendations)  | Followed (in practice) |
-| [Implementation Plan](../plans)  | Executed (in operation) |
-| [White Paper](../white_papers)  | Understood (to support decisions) |
+| [Glossary](./glossaries.md)  | Incorporated (in other documents) |
+| [Recommendation](./recommendations)  | Followed (in practice) |
+| [Implementation Plan](./plans)  | Executed (in operation) |
+| [White Paper](./white-papers.md)  | Understood (to support decisions) |
 
 Table 1: The primary differences between the six types of deliverables
+
+### Abbreviations
+| Term | Abbreviation |
+| --- | --- |
+|Work Group | WG|
+|Task Force | TF |
+
 
 ### Specifications (TSS)
 The most common deliverable under a JDF charter is a **specification**. At the ToIP Foundation, a standards-track specification is called a **TSS** (ToIP Standard Specification). This acronym was chosen to be our analog to the IETF **RFC** (Request for Comment).
@@ -62,8 +69,8 @@ Examples of planned ToIP templates:
 * **Decentralized Semantics WG**: industry-specific templates for schema overlays.
 * **Foundry WGs**: RFP (Requests for Proposal) templates for standard services needed by ToIP governance authorities, e.g., an RFP template for a Utility Service Provider.
 
-### Definitions
-In both technology and legal architecture, **definitions** are a fundamental building block. One of the most important functions of the ToIP Foundation is to develop a shared conceptual framework for describing and understanding decentralized digital trust infrastructure—and then turn that into a set of concrete [glossaries](https://en.wikipedia.org/wiki/Glossary) of shared terms that meet the needs of specific communities and stakeholders. These are the explicit deliverables of our [Concepts and Terminology Working Group](https://wiki.trustoverip.org/pages/viewpage.action?pageId=65700), however all WGs and TFs are invited to contribute to this effort.
+### Glossaries
+In both technology and legal architecture, the **definition of terms** are a fundamental building block. One of the most important functions of the ToIP Foundation is to develop a shared conceptual framework for describing and understanding decentralized digital trust infrastructure—and then turn that into a set of concrete [glossaries](https://en.wikipedia.org/wiki/Glossary) of shared terms that meet the needs of specific communities and stakeholders. Glossaries are the explicit deliverables of our [Concepts and Terminology Working Group](https://wiki.trustoverip.org/pages/viewpage.action?pageId=65700), however all WGs and TFs are invited to contribute to this effort.
 
 ### Recommendations
 Any ToIP working body can produce a recommendation for some combination of specifications, templates policies, and procedures that it advises ToIP implementers to follow. There are three specific types of recommendations that are particularly important for ToIP as shown in Figure 4:
@@ -113,7 +120,12 @@ An implementation plan can be created for any stage(s) in the life cycle of a To
 * A project plan for executing on the above
 * A marketing plan for attracting the necessary membership and/or funding
 
-To use the analogy of building a house, a ToIP implementation plan might include the blueprints, cost estimates, and construction schedule—everything an owner needs to be ready to build. IMPORTANT: The actual building of the house takes place outside the ToIP Foundation. In other words, **the ToIP Foundation is not a governance authority and does not publish operational governance frameworks**. Our job is to: a) develop the specifications and templates governance authorities need in our Stack WGs, and b) help incubate the work of governance authorities in our Foundry WGs. One a governance authority is ready to “graduate”, they need to launch and operate their independent governance framework.
+To use the analogy of building a house, a ToIP implementation plan might include the blueprints, cost estimates, and construction schedule—everything an owner needs to be ready to build. IMPORTANT: The actual building of the house takes place outside the ToIP Foundation. In other words, **the ToIP Foundation is not a governance authority and does not publish operational governance frameworks**. Our job is to:
+
+1. develop the specifications and templates governance authorities need in our Stack WGs;
+2. help incubate the work of governance authorities in our Foundry WGs.
+
+One a governance authority is ready to “graduate”, they need to launch and operate their independent governance framework.
 
 ### White Papers
 A **white paper** is an informative document written for an audience who needs to be educated on a topic—usually to support strategy or implementation decisions. White papers are meant to be read and understood, not followed, instantiated, or implemented. All ToIP working bodies may publish white papers, and they can advance through the same approval process as any other ToIP deliverable (see below).
