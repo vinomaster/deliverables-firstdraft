@@ -1,5 +1,6 @@
 # Title (Ex. 0000: Deliverable Name)
 - Authors: [your name](you@github-email) -- email is optional
+- Deliverable Type: *Glossary* 
 - Status: [PROPOSED](/README.md#proposed)
 - Since: YYYY-MM-DD (date you submit your PR)
 - Status Note: (explanation of current status)  

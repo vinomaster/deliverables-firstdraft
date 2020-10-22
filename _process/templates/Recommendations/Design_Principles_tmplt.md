@@ -28,32 +28,44 @@ DELETE THIS COMMENT
 Briefly describe the scope of this document – how it presents the architecture of this particular enabler.  Include an explanation of how this architecture relates to Organization Name activity.  If it adds clarity, also describe what is not in the scope of this architecture.  DELETE THIS COMMENT
 ```
 
-## Best Practices
-
-<table>
-  <tbody>
-  <tr>
-	  <td><strong>Practice Title</strong></td>
-	  <td>Practice Description.</td>
-	  <td>Supporting Lessons Learned.</td>
-  </tr>
-	<tr>
-	  <td><strong>Practice Title</strong></td>
-	  <td>Practice Description.</td>
-	  <td>Supporting Lessons Learned.</td>
-  </tr>
-  </tbody>
-</table>
-
-## Lessons Learned
-
+## Design Goals
 ```
-Enumerate a list of lessons learned that support the best practice as an exemplar. DELETE THIS COMMENT
+What are the goals that makes this collection of principles unique?
+DELETE THIS COMMENT
 ```
 
-### Lesson 1: xxxxxx
+## List of Principles
 
-### Lesson 2: xxxxxx
+```
+Enumerated table of principles with short description.
+DELETE THIS COMMENT
+```
+
+| Principle | Description |
+| --- | --- |
+| 1. xxxx | xxxxxxxx |
+
+## Synopsis
+
+```
+Provide a detailed explanation about each principle.
+DELETE THIS COMMENT
+```
+
+### 1. xxxxx
+
+### 2. xxxxx
 
 
-</table>
+## Relevance
+
+```
+Explain the positioning of each principle against the overarching goals of this proposal.  How / where would they be used (example Use cases or industry sectors).
+DELETE THIS COMMENT
+```
+
+## Trade-offs
+```
+Provide an assessment of the ramifications of including and/or excluding each principle in a solution.
+DELETE THIS COMMENT
+```
