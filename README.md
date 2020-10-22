@@ -11,10 +11,10 @@ Table 1 summarizes the primary differences between these six types:
 | Deliverable Type | Designed to be:|
 | --- | --- |
 | [Specification](./specs) | Implemented (in code)|
-| [Template](./templates)  | Instantiated (as new documents) |
+| [Template](./_process/templates)  | Instantiated (as new documents) |
 | [Glossary](./glossaries.md)  | Incorporated (in other documents) |
 | [Recommendation](./recommendations)  | Followed (in practice) |
-| [Implementation Plan](./plans)  | Executed (in operation) |
+| [Implementation Guides](./guides)  | Executed (in operation) |
 | [White Paper](./white-papers.md)  | Understood (to support decisions) |
 
 Table 1: The primary differences between the six types of deliverables

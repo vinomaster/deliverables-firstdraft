@@ -9,20 +9,21 @@ Figure 1: The six (6) primary types of ToIP Foundation deliverables
 | Deliverable Type | Designed to be:|
 | --- | --- |
 | [Specification](../specs) | Implemented (in code)|
-| [Template](../templates)  | Instantiated (as new documents) |
+| [Template](./_process/templates)  | Instantiated (as new documents) |
 | [Glossary](./glossaries.md)  | Incorporated (in other documents) |
 | [Recommendation](./recommendations)  | Followed (in practice) |
-| [Implementation Plan](./plans)  | Executed (in operation) |
+| [Implementation Guides](./guides)  | Executed (in operation) |
 | [White Paper](./white-papers.md)  | Understood (to support decisions) |
 
 Table 1: The primary differences between the six types of deliverables
 
-### Abbreviations
+## Abbreviations
 | Term | Abbreviation |
 | --- | --- |
 |Work Group | WG|
 |Task Force | TF |
 
+## Deliverable Type Details
 
 ### Specifications (TSS)
 The most common deliverable under a JDF charter is a **specification**. At the ToIP Foundation, a standards-track specification is called a **TSS** (ToIP Standard Specification). This acronym was chosen to be our analog to the IETF **RFC** (Request for Comment).
@@ -60,14 +61,11 @@ Figure 3: Layer Interoperability Specs are examples of a TSS. ToIP recommendatio
 ### Templates
 A **template*** differs from a specification because it is not implemented in executable software code. It is *instantiated* rather than implemented—typically by making a copy of a non-executable file and using it as a pattern for other new instances of that file.
 
-Templates enable the ToIP community to quickly leverage lessons learned by others who have established proven digital trust solutions. A template is a pattern for bootstrapping a new component of ToIP infrastructure in a consistent manner.
+Templates enable the ToIP community to quickly leverage lessons learned by others to get started on the publishing of a ToIP Deliverable.
 
-Examples of planned ToIP templates:
+![template-usage](../_images/template-usage.png)
 
-* **Governance Stack WG**: templates for the four major types of ToIP governance frameworks (utility, provider, credential, ecosystem).
-* **Technical Stack WG**: templates for standard ToIP data structures such as schemas, credential definitions, design principles and interoperability specs.
-* **Decentralized Semantics WG**: industry-specific templates for schema overlays.
-* **Foundry WGs**: RFP (Requests for Proposal) templates for standard services needed by ToIP governance authorities, e.g., an RFP template for a Utility Service Provider.
+Templates are managed on the ```_process/templates``` folder of this repo.
 
 ### Glossaries
 In both technology and legal architecture, the **definition of terms** are a fundamental building block. One of the most important functions of the ToIP Foundation is to develop a shared conceptual framework for describing and understanding decentralized digital trust infrastructure—and then turn that into a set of concrete [glossaries](https://en.wikipedia.org/wiki/Glossary) of shared terms that meet the needs of specific communities and stakeholders. Glossaries are the explicit deliverables of our [Concepts and Terminology Working Group](https://wiki.trustoverip.org/pages/viewpage.action?pageId=65700), however all WGs and TFs are invited to contribute to this effort.
@@ -128,4 +126,17 @@ To use the analogy of building a house, a ToIP implementation plan might include
 One a governance authority is ready to “graduate”, they need to launch and operate their independent governance framework.
 
 ### White Papers
-A **white paper** is an informative document written for an audience who needs to be educated on a topic—usually to support strategy or implementation decisions. White papers are meant to be read and understood, not followed, instantiated, or implemented. All ToIP working bodies may publish white papers, and they can advance through the same approval process as any other ToIP deliverable (see below).
+A **white paper** is an informative document written for an audience who needs to be educated on a topic—usually to support strategy, implementation decisions and offered sample case studies depicted the applicability of a solution. White papers are meant to be read and understood, not followed, instantiated, or implemented. All ToIP working bodies may publish white papers, and they can advance through the same approval process as any other ToIP deliverable (see below).
+
+## Deliverable Type Usage
+While not intended as an exhaustive information source the following table helps to describe the relationships of how various deliverables may be used by other deliverables.
+
+![depends-matrix](../_images/depends-matrix.png)
+
+The ```YELLOW``` shaded cells reflect work-products of the ToIP Foundation, whereas the ```GREEN``` shaded cells reflect work-products of external foundry projects that have leveraged guidance from the ToIP Foundation.
+
+For example, Ecosystem and Utility projects may leverage different guidance from different ToIP Work Groups.
+
+![project-deliverables](../_images/project-deliverables.png)
+
+Each external project may create its own Governance Framework and a Project Playbook to implement the domain specific project. So effectively, ToIP Work Groups USE templates to PRODUCE deliverables such as Guides. While external projects CONSUME Guides to PRODUCE Governance Frameworks and Playbooks.
