@@ -1,7 +1,3 @@
----
-tags: laws of identity, TOIP, TOIP layers
----
-
 # 0001 - Laws of Identity
 - Authors: [Darrell O'Donnell](darrell.odonnell@continuumloop.com), [Victor Syntez](victorsyntez@gmail.com)
 - Deliverable Type: *Recommendation - Design Principle*
