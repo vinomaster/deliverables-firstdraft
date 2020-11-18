@@ -4,18 +4,17 @@ This document describes the types of deliverables produced by the ToIP Foundatio
 
 ![deliverables](../_images/toip-deliverables.png)
 
-Figure 1: The six (6) primary types of ToIP Foundation deliverables
+Figure 1: The six (5) primary types of ToIP Foundation deliverables
 
 | Deliverable Type | Designed to be:|
 | --- | --- |
-| [Specification](../specs) | Implemented (in code)|
-| [Template](./_process/templates)  | Instantiated (as new documents) |
-| [Glossary](./glossaries.md)  | Incorporated (in other documents) |
+| Specification| Implemented (in code)|
+| [Glossary](../glossaries.md)  | Incorporated (in other documents) |
 | [Recommendation](./recommendations)  | Followed (in practice) |
-| [Implementation Guides](./guides)  | Executed (in operation) |
+| [Guides](./guides)  | Executed (in operation) |
 | [White Paper](./white-papers.md)  | Understood (to support decisions) |
 
-Table 1: The primary differences between the six types of deliverables
+Table 1: The primary differences between the five types of deliverables
 
 ## Abbreviations
 | Term | Abbreviation |
@@ -37,11 +36,11 @@ A TSS is distinguished from other deliverables because it can be the basis for:
 * **Certification**. Interoperability testing can be the basis for official certification programs, whether offered by the ToIP Foundation, other Linux Foundation projects, or independent third party certification labs.
 * **Official standardization**. Any specification produced under a JDF charter has the necessary intellectual property rights protections to be advanced to an official standards development organization (SDO—also called a standards setting organization* or SSO). Examples include ISO (with whom the Linux Foundation JDF projects have a special relationship), IETF, W3C, OASIS, etc. For ToIP specifications, this is the specific role of a ToIP Standard Specification (TSS), as described below.
 
-Figure 2 illustrates this final point that a TSS produced under a Linux Foundation JDF project have a direct path to official standardization in a recognized SDO.
+Figure 2 illustrates this final point that a TSS produced under a Linux Foundation JDF project has a direct path to official standardization in a recognized SDO.
 
 ![tss2sdo](../_images/tss-to-sdo.png)
 
-Figure 2: TSS have a direct path to become official standards.
+Figure 2: TSS has a direct path to become official standards.
 
 There are three flavors of TSS depending on where the content originates:
 
@@ -56,22 +55,13 @@ As depicted by Figure 3, a **Layer Interoperability Spec** is a type of specific
 
 ![lis](../_images/tswg-lis.png)
 
-Figure 3: Layer Interoperability Specs are examples of a TSS. ToIP recommendations.
-
-### Templates
-A **template*** differs from a specification because it is not implemented in executable software code. It is *instantiated* rather than implemented—typically by making a copy of a non-executable file and using it as a pattern for other new instances of that file.
-
-Templates enable the ToIP community to quickly leverage lessons learned by others to get started on the publishing of a ToIP Deliverable.
-
-![template-usage](../_images/template-usage.png)
-
-Templates are managed on the ```_process/templates``` folder of this repo.
+Figure 3: Layer Interoperability Specs are examples of a TSS.
 
 ### Glossaries
 In both technology and legal architecture, the **definition of terms** are a fundamental building block. One of the most important functions of the ToIP Foundation is to develop a shared conceptual framework for describing and understanding decentralized digital trust infrastructure—and then turn that into a set of concrete [glossaries](https://en.wikipedia.org/wiki/Glossary) of shared terms that meet the needs of specific communities and stakeholders. Glossaries are the explicit deliverables of our [Concepts and Terminology Working Group](https://wiki.trustoverip.org/pages/viewpage.action?pageId=65700), however all WGs and TFs are invited to contribute to this effort.
 
 ### Recommendations
-Any ToIP working body can produce a recommendation for some combination of specifications, templates policies, and procedures that it advises ToIP implementers to follow. There are three specific types of recommendations that are particularly important for ToIP as shown in Figure 4:
+Any ToIP working body can produce a recommendation it advises ToIP implementers to follow. There are three specific types of recommendations that are particularly important for ToIP as shown in Figure 4:
 
 ![recommendation-types](../_images/recommendation-types.png)
 
@@ -108,25 +98,36 @@ A second key type of recommendation is not itself a specification, but a set of 
 #### Best Practices
 [Best practices](https://en.wikipedia.org/wiki/Best_practice) are based on practical experience with implementing solutions and learning what does and does not work. They are relevant to every area of ToIP infrastructure, both within our Stack WGs (Governance and Technical) and our Foundry WGs (Utility and Ecosystem).
 
-### Implementation Plans
-An **implementation plan** is a deliverable of a ToIP Foundry WG (or a TF within it). It describes how a particular set of stakeholders intend to use ToIP specifications, templates, definitions, and recommendations to instantiate a new governance authority and/or governance framework for their trust community.
+### Guides
+A **guide** describes how a particular set of stakeholders intend to use ToIP specifications, definitions, and recommendations to instantiate a new governance authority and/or governance framework for a trust community.
 
-An implementation plan can be created for any stage(s) in the life cycle of a ToIP-based project. For example, a full implementation plan might include:
+There are two (2) flavors of guides:
 
-* A draft ToIP governance framework (based on ToIP governance framework templates)
-* A design for implementing the required ToIP infrastructure (based on a specific TIP)
-* A project plan for executing on the above
-* A marketing plan for attracting the necessary membership and/or funding
+1. **Governance Guide**: Produced by the Governance Stack WG (GSWG), these work-products provide generalized domain guidance for how an ecosystem project may apply governance concepts to the creation of a specific governance framework.
+2. **Implementation Guide**:  Produced by the Foundry Working Groups, these work-products provide generalized domain guidance for how an ecosystem project should define an execution plan ("project playbook") for the creation of a specific ecosystem or utility project.
 
-To use the analogy of building a house, a ToIP implementation plan might include the blueprints, cost estimates, and construction schedule—everything an owner needs to be ready to build. IMPORTANT: The actual building of the house takes place outside the ToIP Foundation. In other words, **the ToIP Foundation is not a governance authority and does not publish operational governance frameworks**. Our job is to:
+![guide-types](../_images/guide-types.png)
 
-1. develop the specifications and templates governance authorities need in our Stack WGs;
-2. help incubate the work of governance authorities in our Foundry WGs.
+Figure 6: Guides are building blocks for project specific governance frameworks works and project playbooks.
 
-One a governance authority is ready to “graduate”, they need to launch and operate their independent governance framework.
+To use the analogy of building a house, a project playbook  might include the blueprints, cost estimates, and construction schedule—everything an owner needs to be ready to build. The project playbook would be an instantiation of a guide based on the builders prior experience in building that specific style of house under similar conditions. IMPORTANT: The actual building of the house takes place outside the ToIP Foundation. In other words, **the ToIP Foundation is not a governance authority and does not publish operational governance frameworks or project playbooks**. Our job is to develop the specifications and guides necessary to help bootstrap the creation and maintenance of ecosystem and utility projects.
 
 ### White Papers
 A **white paper** is an informative document written for an audience who needs to be educated on a topic—usually to support strategy, implementation decisions and offered sample case studies depicted the applicability of a solution. White papers are meant to be read and understood, not followed, instantiated, or implemented. All ToIP working bodies may publish white papers, and they can advance through the same approval process as any other ToIP deliverable (see below).
+
+## Deliverable Development
+There will be a variety of instances for each ToIP Deliverable. Contributors with the ToIP Foundation can benefit from the experience of prior work. A common reusable document outline for all deliverable types to improves consumability, consistent and productivity.
+
+### Templates
+A **template*** is a reusable document model. Each deliverable type has an associated template that can be copied to *instantiate* new instances of a deliverable type.
+
+The ToIP Foundation uses [the Markdown language](https://www.markdownguide.org/) to create deliverable templates. These files are designed for writing documentation in plain text that can be easily converted to PDF, HTML and other formats. Templates use the ".md" file extensions.
+
+Templates enable the ToIP community to quickly leverage lessons learned by others to get started on the publishing of a ToIP Deliverable.
+
+![template-usage](../_images/template-usage.png)
+
+Templates are managed in the ```_process/templates``` folder of this repo.
 
 ## Deliverable Type Usage
 While not intended as an exhaustive information source the following table helps to describe the relationships of how various deliverables may be used by other deliverables.
